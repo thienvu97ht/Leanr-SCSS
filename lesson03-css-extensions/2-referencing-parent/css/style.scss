@@ -1,0 +1,19 @@
+div.container {
+  button {
+    background-color: red;
+    color: yellow;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 10px;
+
+    // &:hover <=> button:hover
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: gray;
+      color: white;
+    }
+  }
+}

@@ -1,9 +1,10 @@
 .container p {
   background-color: red;
-  padding: 10;
+  padding: 10px;
   color: white;
 }
 
 .container p a {
-  color: yellow;
+  color: white;
 }
+/*# sourceMappingURL=style.css.map */

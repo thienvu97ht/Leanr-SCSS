@@ -1,3 +1,5 @@
+/* basic p1
+
 $primary_color: red;
 $size: 32;
 // 32 * 1px = 32px
@@ -15,4 +17,31 @@ p {
   font: {
     size: $text_size_string;
   }
+}
+ */
+
+// p2
+
+/* 
+$background-url: "../images/";
+
+div.bg {
+  background: $background-url + "div-bg.png";
+}
+
+p.background {
+  background: $background-url + "p-bg.png";
+} 
+*/
+
+$color: #8bc34a;
+$light-color: lighten($color, 15%); // sáng hơn 15%
+$dark-color: darken($color, 20%); // tôi hơn 20%
+$plus-color: orange + blue; // kết hợp 2 màu
+
+h1,
+p {
+  background-color: $plus-color;
+  color: yellow;
+  padding: 10px;
 }

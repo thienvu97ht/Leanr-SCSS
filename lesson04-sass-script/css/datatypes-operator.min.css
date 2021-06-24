@@ -1,8 +1,39 @@
+/* basic p1
+
+$primary_color: red;
+$size: 32;
+// 32 * 1px = 32px
+$text_size: $size * 1px;
+// 32 + px => 1 string
+$text_size_string: 32 + px;
+// 32px / 1px = 32
+$text_size_number: $text_size / 1px;
+
 h1 {
-  color: red;
+  color: $primary_color;
 }
 
 p {
-  font-size: 32px;
+  font: {
+    size: $text_size_string;
+  }
+}
+ */
+/* 
+$background-url: "../images/";
+
+div.bg {
+  background: $background-url + "div-bg.png";
+}
+
+p.background {
+  background: $background-url + "p-bg.png";
+} 
+*/
+h1,
+p {
+  background-color: #ffa5ff;
+  color: yellow;
+  padding: 10px;
 }
 /*# sourceMappingURL=datatypes-operator.min.css.map */

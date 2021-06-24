@@ -1,0 +1,27 @@
+$primary_color: #7b1fa2;
+$text-larger-size: 32px;
+
+h3 {
+  color: $primary_color;
+}
+
+p.content {
+  $text_color: yellow !global;
+
+  background-color: $primary_color;
+  padding: 10px;
+  color: white;
+
+  a {
+    font: {
+      size: $text-larger-size;
+    }
+
+    color: $text_color;
+  }
+}
+
+/* span {
+  border-bottom: solid 1px $primary_color;
+  color: $text_color;
+} */

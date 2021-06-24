@@ -1,0 +1,20 @@
+h3 {
+  color: #7b1fa2;
+}
+
+p.content {
+  background-color: #7b1fa2;
+  padding: 10px;
+  color: white;
+}
+
+p.content a {
+  font-size: 32px;
+  color: yellow;
+}
+
+/* span {
+  border-bottom: solid 1px $primary_color;
+  color: $text_color;
+} */
+/*# sourceMappingURL=variables.min.css.map */

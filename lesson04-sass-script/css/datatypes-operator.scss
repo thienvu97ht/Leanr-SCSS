@@ -1,0 +1,18 @@
+$primary_color: red;
+$size: 32;
+// 32 * 1px = 32px
+$text_size: $size * 1px;
+// 32 + px => 1 string
+$text_size_string: 32 + px;
+// 32px / 1px = 32
+$text_size_number: $text_size / 1px;
+
+h1 {
+  color: $primary_color;
+}
+
+p {
+  font: {
+    size: $text_size_string;
+  }
+}

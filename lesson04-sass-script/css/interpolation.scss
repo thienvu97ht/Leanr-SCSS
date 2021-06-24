@@ -1,0 +1,6 @@
+$name: content;
+$attr_bg: border;
+
+div.#{$name} {
+  #{$attr_bg}-color: red;
+}
